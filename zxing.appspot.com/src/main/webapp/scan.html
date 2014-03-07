@@ -42,7 +42,7 @@
 			$(function(){
 				// If device is Android, change URI to Android-friendly. Otherwise use HTTP URI.
 				if(navigator.userAgent.toLowerCase().indexOf("android") !== -1) {
-					$(".playLink").attr("src","market://details?id=com.google.zxing.client.android");
+					$(".playLink").attr("href","market://details?id=com.google.zxing.client.android");
 				}
 				
 				// Detect GET-parameters from URL
